@@ -2145,6 +2145,8 @@ CAmmoDef *GetAmmoDef()
 		def.AddAmmoType("MediumRound", DMG_BULLET, TRACER_LINE, 10, 3, 150, BULLET_IMPULSE(200, 1225), 0); // VXP: Pistol
 		def.AddAmmoType("SmallRound", DMG_BULLET, TRACER_LINE, 3, 1, 150, BULLET_IMPULSE(125, 1325), 0);
 		def.AddAmmoType("Rifle", DMG_BULLET, TRACER_LINE_AND_WHIZ, 8, 3, 500, BULLET_IMPULSE(200, 1225), 0);
+		def.AddAmmoType("LargeRound", DMG_BULLET, TRACER_LINE, 9, 3, 150, BULLET_IMPULSE(250, 1180), 0);
+		def.AddAmmoType("AR2_Grenade", DMG_BURN, TRACER_NONE, "sk_plr_dmg_smg1_grenade", "sk_npc_dmg_smg1_grenade", "sk_max_smg1_grenade", 0, 0);
 
 		//=====================================================================
 		// STRIDER MINIGUN DAMAGE - Pull up a chair and I'll tell you a tale.
