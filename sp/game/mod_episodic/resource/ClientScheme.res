@@ -784,6 +784,19 @@ Scheme
 			
 		}
 	}
+    
+    WeaponIconsSmall
+	{
+		1
+		{
+			name		HalfLife2
+			tall		32
+			weight	0
+			antialias 1
+			additive	1
+			custom	1
+		}
+	}
 
 	
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
@@ -791,9 +804,10 @@ Scheme
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
-		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2crosshairs.ttf"
-		"3"	"resource/HL2EP2.ttf"		
+		"1"		"resource/halflife2.ttf"
+		"2"		"resource/hl2crosshairs.ttf"
+		"3"	    "resource/hl2ep2.ttf"		
+        "4"	    "resource/hl2ep1.ttf"	
 	}
 
 }
