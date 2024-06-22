@@ -10,9 +10,9 @@ WeaponData
 	"bucket"				"3"
 	"bucket_position"		"2"
 
-	"clip_size"		"-1"
+	"clip_size"		"250"
 	"clip2_size"		"-1"
-	"default_clip"		"150"
+	"default_clip"		"250"
 	"default_clip2"		"-1"
 
 	"primary_ammo"			"GaussEnergy"

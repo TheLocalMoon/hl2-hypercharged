@@ -65,6 +65,16 @@ config.cfg
 # Backup files
 *.bak
 
+# Map files
+*.hl1
+*.hl2
+*.hl3
+*.sav
+*.ain
+*.dat
+*.cache
+
+
 # Build folders
 sp/src/.vs/
 sp/src/game/client/Debug_mod_episodic/

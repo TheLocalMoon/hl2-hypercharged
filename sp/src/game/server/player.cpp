@@ -6517,21 +6517,6 @@ void CBasePlayer::CheatImpulseCommands( int iImpulse )
 		EquipSuit();
 
 		// Give the player everything!
-		GiveAmmo( 255,	"Pistol");
-		GiveAmmo( 255,	"AR2");
-		GiveAmmo( 5,	"AR2AltFire");
-		GiveAmmo( 255,	"SMG1");
-		GiveAmmo( 255,	"Buckshot");
-		GiveAmmo( 3,	"smg1_grenade");
-		GiveAmmo( 3,	"rpg_round");
-		GiveAmmo( 5,	"grenade");
-		GiveAmmo( 32,	"357" );
-		GiveAmmo( 16,	"XBowBolt" );
-		GiveAmmo( 3,	"SLAM" );
-
-#ifdef HL2_EPISODIC
-		GiveAmmo( 5,	"Hopwire" );
-#endif		
 		GiveNamedItem( "weapon_slam" );
 		GiveNamedItem( "weapon_smg1" );
 		GiveNamedItem( "weapon_frag" );
@@ -6544,9 +6529,26 @@ void CBasePlayer::CheatImpulseCommands( int iImpulse )
 		GiveNamedItem( "weapon_rpg" );
 		GiveNamedItem( "weapon_357" );
 		GiveNamedItem( "weapon_crossbow" );
+		GiveNamedItem( "weapon_gauss" );
+		GiveNamedItem( "weapon_physgun" );
+
+		GiveAmmo(255, "Pistol");
+		GiveAmmo(255, "AR2");
+		GiveAmmo(5, "AR2AltFire");
+		GiveAmmo(255, "SMG1");
+		GiveAmmo(255, "Buckshot");
+		GiveAmmo(3, "smg1_grenade");
+		GiveAmmo(3, "rpg_round");
+		GiveAmmo(5, "grenade");
+		GiveAmmo(32, "357");
+		GiveAmmo(16, "XBowBolt");
+		GiveAmmo(3, "SLAM");
+		GiveAmmo(250, "GaussEnergy");
+
 #ifdef HL2_EPISODIC
-		// GiveNamedItem( "weapon_magnade" );
-#endif
+		GiveAmmo(5, "Hopwire");
+#endif	
+
 		if ( GetHealth() < 100 )
 		{
 			TakeHealth( 25, DMG_GENERIC );
