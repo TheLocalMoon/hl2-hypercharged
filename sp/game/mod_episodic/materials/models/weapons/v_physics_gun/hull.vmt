@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/Weapons/V_physics_gun/hull"
+	$selfillum		"1"
+
+	Proxies
+	{
+		PlayerWeaponColor
+		{
+			resultVar	$selfillumtint
+		}
+	}
+}

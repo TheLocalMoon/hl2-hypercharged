@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/Weapons/pistol_shell/shell"
+//	"$envmap" "env_cubemap"	
+//	"$envmapcontrast" 1
+//	"$basealphaenvmapmask" 1	
+//	"$envmaptint" "[ .6 .5 .3]"
+//	"$model" 1
+	"$bumpmap" "models/Weapons/pistol_shell/shell_nrm"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask"	"1"
+	"$envmaptint"	"[0.245 0.245 0.245]"
+	"$phongalbedotint" 1
+	"$phong" "1"
+	"$phongboost"	"2.465625"
+	"$phongfresnelranges"	"[0.76 0.921 1.25]"
+}

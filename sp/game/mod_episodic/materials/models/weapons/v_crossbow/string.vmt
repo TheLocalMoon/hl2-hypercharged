@@ -1,0 +1,40 @@
+
+"vertexlitgeneric"
+{
+	"$baseTexture" "Models/Weapons/v_crossbow/string"
+	"$bumpmap" "Models/Weapons/v_crossbow/string_normal"
+	"$phongexponenttexture" "Models/Weapons/v_crossbow/string_phong"
+
+
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	//"$envmapsaturation" .7
+	//"$envmapcontrast" 1
+	"$envmaptint" "[0.035 0.035 0.035]"
+        //"$envmapfresnel" "1"
+
+	//"$selfillum" 1
+
+	"$phong" "1"
+	"$phongboost" "10"
+	"$phongexponent" "45"
+	"$phongalbedotint" "1"								
+	//"$phongfresnelranges"	"[.1 5 1]"
+        //"$phongfresnelranges"	"[0.5 4.75 5]"
+         //$phongfresnelranges "[.6 1 2]"
+        "$phongfresnelranges" "[.25 1 .5]"
+         "$phongtint"                   "[0.7 0.9 1]" 
+
+         $normalmapluminancephongmask 1
+         $ambientocclusion 1
+        
+
+	"$halflambert"			"1"
+
+
+        "$rimlight"               "1"
+	"$rimlightexponent"       "15"
+	"$rimlightboost"          ".25"
+	"$rimmask"			"1"
+}

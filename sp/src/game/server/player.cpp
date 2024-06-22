@@ -6512,7 +6512,6 @@ void CBasePlayer::CheatImpulseCommands( int iImpulse )
 		break;
 
 	case 101:
-		gEvilImpulse101 = true;
 
 		EquipSuit();
 
@@ -6529,8 +6528,20 @@ void CBasePlayer::CheatImpulseCommands( int iImpulse )
 		GiveNamedItem( "weapon_rpg" );
 		GiveNamedItem( "weapon_357" );
 		GiveNamedItem( "weapon_crossbow" );
+
 		GiveNamedItem( "weapon_gauss" );
 		GiveNamedItem( "weapon_physgun" );
+		GiveNamedItem( "weapon_irifle" );
+
+		GiveNamedItem("weapon_cguard");
+		GiveNamedItem("weapon_ar1");
+		GiveNamedItem("weapon_smg2");
+
+		GiveNamedItem("weapon_sniperrifle");
+		GiveNamedItem("weapon_oicw");
+		GiveNamedItem("weapon_hmg1");
+
+		GiveNamedItem("weapon_iceaxe");
 
 		GiveAmmo(255, "Pistol");
 		GiveAmmo(255, "AR2");
@@ -6547,14 +6558,7 @@ void CBasePlayer::CheatImpulseCommands( int iImpulse )
 
 #ifdef HL2_EPISODIC
 		GiveAmmo(5, "Hopwire");
-#endif	
-
-		if ( GetHealth() < 100 )
-		{
-			TakeHealth( 25, DMG_GENERIC );
-		}
-		
-		gEvilImpulse101		= false;
+#endif
 
 		break;
 

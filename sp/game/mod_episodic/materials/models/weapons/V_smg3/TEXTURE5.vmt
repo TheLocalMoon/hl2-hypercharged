@@ -1,0 +1,41 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/Weapons/V_smg1/RedDot"
+	"$texture2"	"models/Weapons/V_smg1/noise"
+	"$additive" 1
+	"$model" 1
+	"$bumpmap" "models\weapons/v_smg3/reddot_Normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapsaturation" .5
+	"$envmap" "env_cubemap"
+	"$envmapfrensel" "1"
+	"$envmaptint" "[.01 .01 .01]"
+	"$phong" "1"
+	"$phongalbedotint" "1"	
+	"$halflambert" "1"
+	"$phongexponent" "15"
+	"$phongboost"	".5"
+	"$phongfresnelranges"	"[1 1 1]"
+
+
+
+
+
+	"Proxies"
+	{
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" 4
+			"texturescrollangle" -50
+		}
+
+
+	}
+
+
+
+
+}

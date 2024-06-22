@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture" "models\weapons/v_smg3/MP7"
+	"$bumpmap" "models\weapons/v_smg3/MP7_Normal"
+
+	"$normalmapalphaenvmapmask" 1
+
+	"$envmapcontrast" ".5"
+	"$envmapsaturation" .5
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" "[0.04 0.04  0.04]"
+	
+	"$halflambert" "1"
+
+	"$phong" "1"
+	"$phongalbedotint" "1"
+	"$phongexponent" "50"
+	"$phongboost"	"1"
+	"$phongfresnelranges" "[0.15 0.65  0.3]"
+ 
+        "$rimlight" "1"
+        "$rimlightexponentexture" "models/weapons/v_smg3/mp7_spec"
+        "$rimlightexponent" "55"
+        "$rimlightboost" "0.01"
+	"$rimlightfresnelranges" "[0.15 0.65  0.3]"
+
+	"$detail" "models/weapons/v_smg3/mp7_high_detail"
+	"$detailscale" "1"
+        
+}

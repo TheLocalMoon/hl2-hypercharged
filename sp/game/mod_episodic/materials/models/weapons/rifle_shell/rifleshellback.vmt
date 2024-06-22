@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/Weapons/rifle_shell/rifleshellback"
+	"$bumpmap" "models/Weapons/rifle_shell/rifleshellback_nrm"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask"	"1"
+	"$envmaptint"	"[0.245 0.245 0.245]"
+	"$phongalbedotint" 1
+	"$phong" "1"
+	"$phongboost"	"2.465625"
+	"$phongfresnelranges"	"[0.76 0.921 1.25]"
+}
